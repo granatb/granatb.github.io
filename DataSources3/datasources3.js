@@ -67,6 +67,7 @@
     refreshButton.innerHTML = ('Apply');
     refreshButton.style.background='#d83955';
     refreshButton.style.borderColor='#d83955';
+    refreshButton.style.borderRadius="0px";
     refreshButton.type = 'button';
 
     refreshButton.className = 'btn btn-primary';
