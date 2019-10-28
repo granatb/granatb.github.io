@@ -64,7 +64,8 @@
       //let infoCell = newRow.insertCell(2);
 
     let refreshButton = document.createElement('button');
-    refreshButton.innerHTML = ('Refresh Now');
+    refreshButton.innerHTML = ('Apply');
+    refreshButton.bgcolor="#d83955";
     refreshButton.type = 'button';
     refreshButton.className = 'btn btn-primary';
 
