@@ -66,7 +66,9 @@
     let refreshButton = document.createElement('button');
     refreshButton.innerHTML = ('Apply');
     refreshButton.style.background='#d83955';
+    refreshButton.style.borderColor='#d83955';
     refreshButton.type = 'button';
+
     refreshButton.className = 'btn btn-primary';
 
     refreshButton.addEventListener('click', function () { 
